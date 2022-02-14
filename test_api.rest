@@ -1,0 +1,9 @@
+GET http://localhost:8000/
+
+###
+POST http://localhost:8000/countdown
+Content-Type: application/json
+
+{
+    "deadline": "2022-02-25T20:25:00.000Z"
+}
