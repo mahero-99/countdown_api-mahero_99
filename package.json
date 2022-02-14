@@ -2,5 +2,28 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.2"
-  }
+  },
+  "name": "countdown_api-mahero_99",
+  "version": "1.0.0",
+  "description": "api to calculate countdown to a future date",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahero-99/countdown_api-mahero_99.git"
+  },
+  "keywords": [
+    "countdown",
+    "api",
+    "time"
+  ],
+  "author": "mahero_99",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahero-99/countdown_api-mahero_99/issues"
+  },
+  "homepage": "https://github.com/mahero-99/countdown_api-mahero_99#readme"
 }
