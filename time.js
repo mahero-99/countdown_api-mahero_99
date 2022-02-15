@@ -13,7 +13,7 @@ module.exports={
 
     time_CountDown:  (req, res) =>{
         try {
-            const diffrence_stamp = (time_Stamp(req.body.deadline) - Date.now());
+            const diffrence_stamp = (time_Stamp(req.body.deadline) - time_Stamp(req.body.current_time));
             const diffrence_date = {
                     day: Math.floor(diffrence_stamp / day),
                     hour: Math.floor((diffrence_stamp % day) / hour),

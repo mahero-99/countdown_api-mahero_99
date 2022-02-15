@@ -1,9 +1,7 @@
-GET http://localhost:8000/
-
-###
 POST http://localhost:8000/countdown
 Content-Type: application/json
 
 {
-    "deadline": "2022-02-25T20:25:00.000Z"
+    "deadline": "2022-02-25T20:25:00.000Z",
+    "current_time": "2022-02-15T14:24:36.048Z"
 }
